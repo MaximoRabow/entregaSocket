@@ -1,10 +1,10 @@
 import { Router } from "express";
 
-const router = Router();
+const viewsRouter = Router();
 
-router.get('/', (req, res) =>{
-    res.render('main');
+viewsRouter.get('/', (req, res) =>{
+    res.render('index');
 });
 
-export default router;
+export default viewsRouter;
 
